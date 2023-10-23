@@ -1,0 +1,26 @@
+{
+  "name": "meta2.2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.2.3",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0",
+    "underscore": "^1.13.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "Agent707",
+    "password": "arcoiris123",
+    "database": "propiedades",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "Agent707",
+    "password": "arcoiris123",
+    "database": "propiedades",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "Agent707",
+    "password": "arcoiris123",
+    "database": "propiedades",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
