@@ -1,22 +1,22 @@
 {
   "development": {
-    "username": "Agent707",
+    "username": "root",
     "password": "arcoiris123",
-    "database": "propiedades",
+    "database": "projectmanager",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {
-    "username": "Agent707",
+    "username": "root",
     "password": "arcoiris123",
-    "database": "propiedades",
+    "database": "projectmanager",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "production": {
-    "username": "Agent707",
+    "username": "root",
     "password": "arcoiris123",
-    "database": "propiedades",
+    "database": "projectmanager",
     "host": "127.0.0.1",
     "dialect": "mysql"
   }

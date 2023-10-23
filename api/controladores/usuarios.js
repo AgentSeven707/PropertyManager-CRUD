@@ -2,7 +2,7 @@ const { Router } = require('express');
 const { route } = require('express/lib/router');
 const router = new Router();
 const _ = require('underscore');
-const models = require('C:\\Users\\Princ\\Desktop\\JavaScript\\Meta3.3\\main\\models');
+const models = require('../../database/models');
 
 //Metodo READ
 router.get('/usuarios', (req, res) => {

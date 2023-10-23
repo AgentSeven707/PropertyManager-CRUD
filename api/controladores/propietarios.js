@@ -1,7 +1,7 @@
 const { Router } = require('express');
 const router = new Router();
 const _ = require('underscore');
-const models = require('C:\\Users\\Princ\\Desktop\\JavaScript\\Meta2.4.js\\main\\models');
+const models = require('../../database/models');
 
 //Metodo READ
 router.get('/propietarios', (req, res) => {

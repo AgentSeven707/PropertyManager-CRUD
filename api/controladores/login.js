@@ -2,7 +2,7 @@ const { Router } = require('express');
 const jwt = require('jsonwebtoken');
 const llave = require("../auth/llave");
 const router = new Router();
-const models = require('C:\\Users\\Princ\\Desktop\\JavaScript\\Meta3.3\\main\\models');
+const models = require('../../database/models');
 
 //Método que realiza un token si el usuario y contraseña son correctos
 router.post('/login', (req, res) => {

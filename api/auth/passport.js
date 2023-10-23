@@ -1,7 +1,7 @@
 const passport = require('passport');
 const passportJWT = require('passport-jwt');
 const llave = require("./llave");
-const models = require('C:\\Users\\Princ\\Desktop\\JavaScript\\Meta3.3\\main\\models');
+const models = require('../../database/models');
 
 let ExtractJwt = passportJWT.ExtractJwt;
 let JwtStrategy = passportJWT.Strategy;

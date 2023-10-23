@@ -2,8 +2,8 @@ const { Router } = require('express');
 const { json } = require('express/lib/response');
 const router = new Router();
 const _ = require('underscore');
-const personas = require('../../main/models/personas');
-const models = require('C:\\Users\\Princ\\Desktop\\JavaScript\\Meta2.4.js\\main\\models');
+const personas = require('../../database/models/personas');
+const models = require('../../database/models');
 
 //Metodo READ
 router.get('/propiedades', (req, res) => {
